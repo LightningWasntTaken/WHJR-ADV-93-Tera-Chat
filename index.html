@@ -12,10 +12,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
 <link rel="stylesheet" type="text/css" href="tera.css">
-<script src="tera.js"></script>
     </head>
     <body>
+        <script src="tera.js"></script>
         <center>
             <br>
             <br>
@@ -34,7 +38,7 @@
                 <h4>Please enter your User Name</h4>
                 <input type="text" id="user_name_input" class="form-control" placeholder="User Name">
                 <br>
-                <button id="login_button" class="btn btn-primary" onclick="addUser()">Get Started</button>
+                <button id="login_button" class="btn btn-primary" onclick="addUser();">Get Started</button>
             </div>
         </center>
     </body>
